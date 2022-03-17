@@ -1,0 +1,4 @@
+write-ghc-environment-files: never
+
+-- This 'cabal.project' file applies to all Haskell packages in the repository.
+packages: app/app.cabal library/library.cabal
